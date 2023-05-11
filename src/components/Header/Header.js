@@ -1,15 +1,20 @@
 import React from 'react'
 import "./Header.css";
+import logo from "../../assets/logo.png"
 function Header() {
     return (
-        <div>
+        <div className='Header'>
+
+            <div className='logo'>
+                <img className="logo__spacing" src={logo} alt='montra-logo' />
+            </div>
+
             <nav className="navbar navbar-expand-lg bg-body-tertiary" style={{
                 "backgroundColor": "#FFFFFF"
             }}>
-                <div className="container-fluid" style={{ "marginLeft": "10rem" }}>
-                    {/* <div className='row w-30'>
-                    <img src={logo} alt='montra-logo' />
-                </div> */}
+
+                <div className="container-fluid" style={{ "marginLeft": "18rem" }}>
+
                     <div className=' row w-100'>
                         <div className='col-4'>
                             <ul className="navbar-nav me-auto mb-2 mb-lg-0 ml-5">
@@ -50,6 +55,44 @@ function Header() {
                     </div>
                 </div>
             </nav>
+
+            <div className="Header__section">
+                <nav className="navbar navbar-expand-lg bg-body-tertiary">
+
+                    <div className="container-fluid" style={{ "marginLeft": "38rem" }}>
+
+                        <div className=' row w-100'>
+                            <div className='col-4'>
+                                <ul className="navbar-nav me-auto mb-2 mb-lg-0 ml-5">
+                                    <li className="nav-item">
+                                        <a className="nav-link active px-4" href="#!">Payment</a>
+                                    </li>
+                                    <li className="nav-item">
+                                        <a className="nav-link px-4" href="#!">Banking</a>
+                                    </li>
+                                    <li className="nav-item">
+                                        <a className="nav-link px-4" href="#!">Lending</a>
+                                    </li>
+                                    <li className="nav-item">
+                                        <a className="nav-link px-4" href="#!">Lending</a>
+                                    </li>
+                                    <li className="nav-item">
+                                        <a className="nav-link px-4" href="#!">Insurance</a>
+                                    </li>
+                                    <li className="nav-item">
+                                        <a className="nav-link px-4" href="#!">Investment</a>
+                                    </li>
+                                    <li className="nav-item">
+                                        <a className="nav-link px-4" href="#!">Shopping</a>
+                                    </li>
+                                </ul>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
         </div>
 
     )
