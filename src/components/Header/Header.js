@@ -1,5 +1,6 @@
 import React from 'react'
-import "./Header.css"
+import "./Header.css";
+import SubHeader from '../SubHeader/SubHeader';
 function Header() {
     return (
         <div>
@@ -50,6 +51,7 @@ function Header() {
                     </div>
                 </div>
             </nav>
+            <SubHeader />
         </div>
 
     )
