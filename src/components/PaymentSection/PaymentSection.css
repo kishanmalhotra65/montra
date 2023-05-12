@@ -1,0 +1,57 @@
+.title-payment {
+      color: #50ccfe;
+      font-size: 20px;
+}
+.subTitle__payment {
+      color: #1e336b;
+      font-size: 35px;
+      line-height: 50px;
+}
+.payment {
+      margin-top: 1em;
+}
+.scan {
+      margin-top: 2em;
+      position: relative;
+}
+.scan__image {
+      position: absolute;
+      top: 40px;
+}
+.btnLogo {
+      width: 10px;
+      height: 10px;
+}
+.card__box {
+      padding: auto;
+}
+
+.btn__main {
+      margin-left: 1px;
+      width: 225.06px;
+      height: 38px;
+      background: #d5effb;
+      border-radius: 9.13546px;
+      padding: 7px 2px;
+}
+.download {
+      color: #20336b;
+      font-family: 'DM Sans';
+}
+.btnLogo {
+      width: 64px;
+      height: 20px;
+      vertical-align: unset;
+}
+
+.cad__box__title {
+      color: #1e336b;
+      font-size: 20px;
+}
+
+/* .row.card__box__1 {
+      margin: 10px 0 47px 0;
+}
+.row.card__box__1 {
+      margin: 10px 0 0 0;
+} */
