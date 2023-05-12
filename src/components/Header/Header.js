@@ -55,44 +55,6 @@ function Header() {
                     </div>
                 </div>
             </nav>
-
-            <div className="Header__section">
-                <nav className="navbar navbar-expand-lg bg-body-tertiary">
-
-                    <div className="container-fluid" style={{ "marginLeft": "38rem" }}>
-
-                        <div className=' row w-100'>
-                            <div className='col-4'>
-                                <ul className="navbar-nav me-auto mb-2 mb-lg-0 ml-5">
-                                    <li className="nav-item">
-                                        <a className="nav-link active px-4" href="#!">Payment</a>
-                                    </li>
-                                    <li className="nav-item">
-                                        <a className="nav-link px-4" href="#!">Banking</a>
-                                    </li>
-                                    <li className="nav-item">
-                                        <a className="nav-link px-4" href="#!">Lending</a>
-                                    </li>
-                                    <li className="nav-item">
-                                        <a className="nav-link px-4" href="#!">Lending</a>
-                                    </li>
-                                    <li className="nav-item">
-                                        <a className="nav-link px-4" href="#!">Insurance</a>
-                                    </li>
-                                    <li className="nav-item">
-                                        <a className="nav-link px-4" href="#!">Investment</a>
-                                    </li>
-                                    <li className="nav-item">
-                                        <a className="nav-link px-4" href="#!">Shopping</a>
-                                    </li>
-                                </ul>
-
-
-                            </div>
-                        </div>
-                    </div>
-                </nav>
-            </div>
         </div>
 
     )
