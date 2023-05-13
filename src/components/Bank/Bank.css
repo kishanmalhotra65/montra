@@ -21,11 +21,27 @@
 
 .col-6.sideBox {
       height: 30vh;
-      padding: 200px 200px 200px 0;
+
+      padding: 259px 270px 252px 0;
 }
 .card__box__title {
       font-size: 20px;
+      color: #1e336b;
+}
+.card__box__title::before {
+      content: '|';
+      padding-right: 10px;
+      font-size: 22px;
+      font-weight: 100;
 }
 .padding__space {
       padding: 30px;
+}
+
+.pay_sec {
+      padding: 10px 0;
+}
+.pay_sec p {
+      color: #1e336b;
+      word-spacing: 4px;
 }

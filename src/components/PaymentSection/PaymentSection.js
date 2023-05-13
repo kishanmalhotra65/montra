@@ -54,18 +54,18 @@ function paymentSection() {
                     <div class="row">
                         <div class="col-3 padding__class">
                             <i class="fa-brands fa-facebook"></i>
-                            <h4 className='cad__box__title'>Scan Pay</h4>
+                            <h4 className='card__box__title'>Scan Pay</h4>
                             <div class="pay_sec"><p>Scan QR code of any Montra Merchant using Personal App & simply make payment directly</p></div>
                         </div>
                         <div class="col-3 padding__class">
                             <i class="fa-brands fa-facebook"></i>
-                            <h4 className='cad__box__title'>Fund Transfer</h4>
+                            <h4 className='card__box__title'>Fund Transfer</h4>
                             <div class="pay_sec"><p>Transfer Funds to any bank account directly from your bank accounts linked to your App</p></div>
 
                         </div>
                         <div class="col-3 padding__class">
                             <i class="fa-brands fa-facebook"></i>
-                            <h4 className='cad__box__title'>Chat Pay</h4>
+                            <h4 className='card__box__title'>Chat Pay</h4>
                             <div class="pay_sec"><p>Chat with other Montra users & send or receive payments while chatting</p></div>
 
                         </div>
@@ -73,21 +73,21 @@ function paymentSection() {
                     <div class="row">
                         <div class="col-3 padding__class">
                             <i class="fa-brands fa-facebook"></i>
-                            <h4 className='cad__box__title'>Payment Marketplace</h4>
+                            <h4 className='card__box__title'>Payment Marketplace</h4>
 
                             <div class="pay_sec"><p>Our payment Marketplace offers access to payment services such as buy Airtime, Data & DTH .</p></div>
 
                         </div>
                         <div class="col-3 padding__class">
                             <i class="fa-brands fa-facebook"></i>
-                            <h4 className='cad__box__title'>Transaction History</h4>
+                            <h4 className='card__box__title'>Transaction History</h4>
 
                             <div class="pay_sec"><p>Get an easy access to track all your transactions on your Personal Montra app.</p></div>
 
                         </div>
                         <div class="col-3 padding__class">
                             <i class="fa-brands fa-facebook"></i>
-                            <h4 className='cad__box__title'>Payment Reminders</h4>
+                            <h4 className='card__box__title'>Payment Reminders</h4>
                             <div class="pay_sec"><p>Get an easy access to track all your transactions on your Personal Montra app</p></div>
                         </div>
                     </div>
