@@ -3,7 +3,7 @@ import "./PaymentSection.css";
 import paymentImg from "../.././assets/payments.png";
 import scanAndPay from "../../assets/scanAndPay.png";
 import btnLogo from "../../assets/montraFinal.png";
-import appleLogo from "../../assets/apple logo.png";
+import appleLogo from "../../assets/appleLogo.png";
 import googlePlay from "../../assets/googlePlay.png"
 function paymentSection() {
     return (

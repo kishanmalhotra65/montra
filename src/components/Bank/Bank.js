@@ -1,6 +1,9 @@
 import React from 'react'
 import bankingImage from "../../assets/banking.png";
 import agentBanking from "../../assets/agencyBanking.png";
+import btnLogo from "../../assets/montraFinal.png";
+import appleLogo from "../../assets/appleLogo.png";
+import googlePlay from "../../assets/googlePlay.png"
 import "./Bank.css"
 function Bank() {
     return (
@@ -11,6 +14,22 @@ function Bank() {
                         <div class="">
                             <h4>Banking</h4>
                             <p>Open a bank account instantly with our partner banks and operate through our Agent Network</p>
+                            <div className='row btn__main '>
+                                <div className='col-4'>
+                                    <p className='download'>Download</p>
+                                </div>
+                                <div className='col-4 '>
+                                    <img className="btnLogo" src={btnLogo} alt="" srcset="" />
+                                </div>
+                                <div className='col-1'>
+                                    <img className="googleLogo"
+                                        src={appleLogo} alt="" srcset="" />
+                                </div>
+                                <div className='col-1'>
+                                    <img className="googleLogo" src={googlePlay} alt="" srcset="" />
+
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div className='col-6'>
