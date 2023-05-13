@@ -1,7 +1,18 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import "./Header.css";
 import logo from "../../assets/logo.png"
 function Header() {
+    const [country, setCountry] = useState("");
+
+    useEffect(() => {
+        const fetchData = async () => {
+            const response = await fetch("https://ipapi.co/json/");
+            const data = await response.json();
+            setCountry(data.country_name);
+
+        };
+        fetchData();
+    }, []);
     return (
         <div className='Header'>
 
@@ -36,7 +47,7 @@ function Header() {
                             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="#!" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        Nigeria
+                                        {country}
                                     </a>
                                 </li>
 

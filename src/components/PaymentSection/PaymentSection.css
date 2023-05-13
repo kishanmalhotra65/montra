@@ -21,6 +21,10 @@
 .btnLogo {
       width: 10px;
       height: 10px;
+      padding-top: 3px;
+}
+.googleLogo {
+      padding: 0 0 7px 0;
 }
 .card__box {
       padding: auto;
@@ -48,10 +52,18 @@
       color: #1e336b;
       font-size: 20px;
 }
-
-/* .row.card__box__1 {
-      margin: 10px 0 47px 0;
+.container.card__box .padding__class {
+      padding: 0 30px 30px 0px;
 }
-.row.card__box__1 {
-      margin: 10px 0 0 0;
-} */
+.cad__box__title::before {
+      content: '|';
+      padding-right: 10px;
+      font-size: 22px;
+      font-weight: 100;
+}
+.padding__class.p {
+      font-size: 14px;
+}
+.pay_sec {
+      margin: 0 0 0 2px;
+}
