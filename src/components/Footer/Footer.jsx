@@ -1,8 +1,20 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
+import React, { useState, useEffect } from "react";
 import './Footer.css';
 import logo from "../../assets/montra_logo.png"
 // import Clogo from "../../assets/c_montra.png"
-export default function header() {
+export default function Footer() {
+    const [country, setCountry] = useState("");
+
+    useEffect(() => {
+        const fetchData = async () => {
+            const response = await fetch("https://ipapi.co/json/");
+            const data = await response.json();
+            setCountry(data.country_name);
+
+        };
+        fetchData();
+    }, []);
     return <footer className="text-center text-lg-start bg-light text-muted">
 
         <section className="">
@@ -11,7 +23,7 @@ export default function header() {
                     {/* 1st column */}
                     <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
                         <h6 className="text-uppercase fw-bold mb-4">
-                            <img src={logo} />
+                            <img src={logo} alt="logo" />
                         </h6>
                         <div className="location"><i class="fa fa-map-marker"></i>Montra, Inc. United States</div>
                         <div className='logo'>
@@ -20,7 +32,7 @@ export default function header() {
                                 making accessibility to Credit easy for everyone
                             </div>
                             <div className="sub_text">
-                                <p><a href="#" className="text-reset">© Montra</a></p>
+                                <p><a href="#!" className="text-reset">© Montra</a></p>
                             </div>
 
                         </div>
@@ -44,7 +56,7 @@ export default function header() {
                         </h6>
                         <div className="sub_heading">Personal</div>
                         <p className="sub_text">
-                            <a href="#" className="text-reset">Payments</a>
+                            <a href="#!" className="text-reset">Payments</a>
                         </p>
                         <p className="sub_text">
                             <a href="#!" className="text-reset">Banking</a>
@@ -148,7 +160,7 @@ export default function header() {
                         <p className="sub_text">
                             <a href="#!" className="text-reset">Collections</a>
                         </p>
-                        <div className="sub_heading">Verifyed</div>
+                        <div className="sub_heading">Verified</div>
                         <p className="sub_text">
                             <a href="#!" className="text-reset">Authenticator App</a>
                         </p>
@@ -207,7 +219,7 @@ export default function header() {
         <section className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
             <div className="out_footer">
                 <ul>
-                    <li>Nigeria</li>
+                    <li>{country}</li>
                     <li>Privacy policy</li>
                     <li>Terms of use</li>
                     <li>Cookie policy</li>
