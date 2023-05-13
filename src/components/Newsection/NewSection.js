@@ -1,57 +1,42 @@
-import React from 'react'
-import "./PaymentSection.css";
+import React from "react";
+import New_img from "../.././assets/cutBackgroundImage.png";
 import paymentImg from "../.././assets/payments.png";
 import scanAndPay from "../../assets/scanAndPay.png";
 import btnLogo from "../../assets/montraFinal.png";
 import appleLogo from "../../assets/appleLogo.png";
 import googlePlay from "../../assets/googlePlay.png"
-function paymentSection() {
-    
-    return (
-        <div className='paymentSection'>
-            <div class="container">
-                <div class="row">
-                    <div class="col-5">
-                        <p className='title-payment'>Payments</p>
-                        <div>
-                            <h4 className='subTitle__payment '>
-                                Pay anyone directly from your
-                                <strong> bank accounts</strong> or linked <strong>cards</strong>
-                            </h4>
 
-                            <div className='row btn__main '>
-                                <div className='col-4'>
-                                    <p className='download'>Download</p>
-                                </div>
-                                <div className='col-4 '>
-                                    <img className="btnLogo" src={btnLogo} alt="" srcset="" />
-                                </div>
-                                <div className='col-1'>
-                                    <img className="googleLogo"
-                                        src={appleLogo} alt="" srcset="" />
-                                </div>
-                                <div className='col-1'>
-                                    <img className="googleLogo" src={googlePlay} alt="" srcset="" />
+import leadingimg from "../../assets/leading.png"
+import "../PaymentSection/PaymentSection.css";
+function NewSection () {
+    return   <div class="contaicontainer-fluidner">
+        <div className='Newsection'>
+        <div class="row">
+            
+        <div className='col-6 Left_sec'>
+        <div className="Leading_spacing">
+    <h6>Leading</h6>
+<p className='download'><b>Compare the loan offers from our Le
+nding Partners and </b>  get them disbursed instantly in your bank accounts</p>
+</div>
+<div className="download_button">
+<a href="">
+    <p className="download">Downoad</p>
+    <img src={btnLogo}/>
+    <img src={appleLogo}/>
+    <img src={googlePlay}/>
 
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-4">
-                        <div className='payment'>
-                            <img className="payment__image" src={paymentImg} alt='payment' />
-                        </div>
-                    </div>
-                    <div class="col-3">
-
-                        <div className='scan'>
-                            <img className="scan__image" src={scanAndPay} alt='payment' /></div>
-                    </div>
-                </div>
-
-
-
-                <div className='container card__box '>
+</a>
+</div>
+        </div>
+         <div className='col-6'>
+      <img src={leadingimg}/>
+     
+       </div>
+      
+        </div>
+        
+        <div className='container card__box '>
                     <div class="row">
                         <div class="col-3 padding__class">
                             <i class="fa-brands fa-facebook"></i>
@@ -94,10 +79,9 @@ function paymentSection() {
                     </div>
                 </div>
             </div>
-        </div >
-
-
-    )
+         
+            </div>
+           
 }
 
-export default paymentSection
+export default NewSection   

@@ -67,3 +67,51 @@
 .pay_sec {
       margin: 0 0 0 2px;
 }
+.Newsection {
+      background-image: url('../.././assets/cutBackgroundImage.png');
+      /* background: rebeccapurple; */
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+
+  .download_button a {
+      width: auto;
+      display: flex;
+      background: #D5EFFB;
+      /* justify-content: space-between; */
+      /* gap: 20px; */
+      padding: 10px;
+      height: 38px;
+      border-radius: 9px;
+      position: relative;
+      top: 45px;
+  }
+  .download_button {
+      width: 211px;
+  }
+  .download_button p
+  {
+
+      color:#20336B;
+  }
+  .col-6.Left_sec {
+      position: relative;
+      left: 10%;
+      /* top: 66%; */
+      margin-top: 172px;
+  }
+  .Leading_spacing p {
+      color: #fff;
+  }
+  .download_button a {
+    width: auto;
+    display: flex;
+    background: #D5EFFB;
+    /* justify-content: space-between; */
+    /* gap: 20px; */
+    padding: 10px;
+    height: 38px;
+    border-radius: 9px;
+    position: relative;
+    top: 45px;
+}
