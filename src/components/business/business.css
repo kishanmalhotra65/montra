@@ -1,0 +1,149 @@
+img#businessmobile {
+    margin: -271px;
+    border-radius: 28px;
+}
+p#title {
+    font-size: 20px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: #50CCFE;
+}
+
+p#sub-title {
+    width: 628px;
+    height: 78px;
+    /* font-family: 'Test Söhne'; */
+    font-size: 34px;
+    line-height: 112%;
+    /* letter-spacing: -0.03em; */
+    color: #1E336B;
+}
+.button #businessApple {
+    margin-right: 198px;
+    background-color: black;
+}
+.button #business-mobile {
+    margin-right: 113px;
+    margin: -46px;
+    margin-left: 136px;
+}
+.button {
+    margin-right: 41%;
+}
+.button {
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10.9898px 21.9796px;
+gap: 2.75px;
+
+width: 200.06px;
+height: 38px;
+
+background: #D5EFFB;
+border-radius: 9.13546px;
+}
+
+botton#business-mobile {
+    width: 53px;
+    height: 15px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10.9898px;
+}
+
+.under-column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .under-row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .under-row {
+    margin-top: 22px;
+}
+img#VectorSlash {
+    margin-left: -9px;
+    height: 10px;
+    width: 7px;
+    background: #1E336B;
+}
+.vc-img {
+    text-align: left;
+    margin-bottom: 20px;
+}
+p#custom-cont {
+    text-align: left;
+    width: 151px;
+    height: 24px;
+    font-family: 'Test Söhne';
+    font-size: 18px;
+    line-height: 120%;
+    letter-spacing: -0.03em;
+    color: #1E336B;
+}
+p.vc-paragraph {
+    text-align: left;
+}
+p.vc-paragraph {
+    width: 208px;
+    height: 160px;
+    font-family: 'Test Söhne';
+    font-size: 14px;
+    line-height: 140%;
+    color: #1E336B;
+    opacity: 0.6;
+}
+
+.container.text-center.second {
+    margin-top: 10%;
+}
+img#businesswithdrawl {
+    margin: -271px;
+    border-radius: 28px;
+    height: 546px;
+}
+
+.withdrw-img {
+    text-align: left;
+}
+p#title-banking {
+    text-align: left;
+    color: #50CCFE;
+}
+.under_div {
+    padding: 53px;
+}
+img.banking {
+    height: 16px;
+}
+
+p#withdrawl-title {
+    width: 596px;
+    height: 184px;
+    font-size: 39px;
+    line-height: 110%;
+    color: #1E336B;
+    text-align: left;
+}
+img#user-img {
+    height: 29px;
+    /* text-align: right; */
+    margin-right: 249px;
+}
+.agencies-column {
+    float: left;
+    width: 48.33%;
+    padding: 10px;
+    height: 300px;
+  }
