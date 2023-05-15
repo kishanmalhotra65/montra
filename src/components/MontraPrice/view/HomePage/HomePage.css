@@ -1,0 +1,50 @@
+.Home-Page {
+      background-image: url('../../../../assets/background.png');
+}
+.Home-Page-Heading h2 {
+      width: 524px;
+      height: 183px;
+
+      font-family: 'Test Söhne';
+      font-size: 55px;
+      line-height: 125%;
+      /* or 69px */
+
+      display: flex;
+      align-items: center;
+
+      color: #ffffff;
+}
+.Home-Page-Heading p {
+      width: 403px;
+      height: 35px;
+
+      font-family: 'Test Söhne';
+      font-size: 18px;
+      line-height: 28px;
+      /* or 156% */
+
+      display: flex;
+      align-items: center;
+
+      color: #f1f1f1;
+}
+.Home-Page-Heading button {
+      box-sizing: border-box;
+
+      /* Auto layout */
+
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 10.9898px 21.9796px;
+      gap: 2.75px;
+
+      width: 200.06px;
+      height: 38px;
+
+      background: #ffffff;
+      border: 0.686861px solid #20336b;
+      border-radius: 9.13546px;
+}
