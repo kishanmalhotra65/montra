@@ -6,7 +6,7 @@ import appleLogo from '../../../../assets/appleLogo.png';
 import googlePlay from '../../../../assets/googlePlay.png';
 function LendingSection(){
      return(
-        <div className="Lending">
+        <div className="Lending ">
           <div className='container-fluid LendingConatainer'>
             <div className='row'>
               <div className="col-1"></div>
@@ -34,7 +34,7 @@ function LendingSection(){
               <div className="col-5 mt-5">
               <img className="lenndingImage" src={lennding} alt="" srcset="" />
               </div>
-              <div className="col-1"></div>
+              {/* <div className="col-1"></div> */}
             </div>
           </div>
         </div>
