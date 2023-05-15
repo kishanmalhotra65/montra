@@ -1,7 +1,23 @@
-import React from 'react'
+import React,{useState,useEffect} from 'react'
 import "./Header.css";
 import logo from "../../assets/logo.png"
 function Header() {
+    const [country, setCountry] = useState("");
+    // const [flag, setFlag] = useState("");
+
+    useEffect(() => {
+        const fetchData = async () => {
+            const response = await fetch("https://ipapi.co/json/");
+            const data = await response.json();
+            // console.log(countriesJSON)
+            // console.log(data.country_name)
+            // let result = await countriesJSON.find((country) => country.name.toLowerCase() === data.country_name.toLowerCase())
+            setCountry(data.country_name);
+            // setFlag(result.name);
+
+        };
+        fetchData();
+    }, []);
     return (
         <div className='Header'>
 
@@ -36,7 +52,7 @@ function Header() {
                             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="#!" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        Nigeria
+                                        {country||"Nigeria"}
                                     </a>
                                 </li>
 

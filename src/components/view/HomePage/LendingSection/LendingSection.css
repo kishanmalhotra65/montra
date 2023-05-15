@@ -1,0 +1,30 @@
+.LendingConatainer{
+    background-image: url("../../../../assets/cutBackgroundImage.png");
+    /* background-size: contain;
+    height: 100vh;
+    background-repeat: no-repeat;
+    width: 100vw; */
+}
+.LendingContent{
+     margin-top: 30%;
+}
+.LendingContent p{
+    width: 73px;
+    height: 16px;
+    font-family: 'Test Söhne';
+    font-size: 20px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: #50CCFE;
+}
+.LendingContent h3{
+    width: 536px;
+    height: 184px;
+    font-family: 'Test Söhne';
+    font-size: 38px;
+    line-height: 120%;
+    letter-spacing: 0.02em;   
+    color: #FFFFFF;
+}

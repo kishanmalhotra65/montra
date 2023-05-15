@@ -1,8 +1,26 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Footer.css';
+import React,{useState,useEffect} from 'react'
 import logo from "../../assets/montra_logo.png"
 // import Clogo from "../../assets/c_montra.png"
-export default function header() {
+export default function Footer() {
+
+    const [country, setCountry] = useState("");
+    // const [flag, setFlag] = useState("");
+
+    useEffect(() => {
+        const fetchData = async () => {
+            const response = await fetch("https://ipapi.co/json/");
+            const data = await response.json();
+            // console.log(countriesJSON)
+            console.log(data.country_name)
+            // let result = await countriesJSON.find((country) => country.name.toLowerCase() === data.country_name.toLowerCase())
+            setCountry(data.country_name);
+            // setFlag(result.name);
+
+        };
+        fetchData();
+    }, []);
     return <footer className="text-center text-lg-start bg-light text-muted">
 
         <section className="">
@@ -148,7 +166,7 @@ export default function header() {
                         <p className="sub_text">
                             <a href="#!" className="text-reset">Collections</a>
                         </p>
-                        <div className="sub_heading">Verifyed</div>
+                        <div className="sub_heading">Verified</div>
                         <p className="sub_text">
                             <a href="#!" className="text-reset">Authenticator App</a>
                         </p>
@@ -207,7 +225,7 @@ export default function header() {
         <section className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
             <div className="out_footer">
                 <ul>
-                    <li>Nigeria</li>
+                    <li>{country||"Nigeria"}</li>
                     <li>Privacy policy</li>
                     <li>Terms of use</li>
                     <li>Cookie policy</li>
