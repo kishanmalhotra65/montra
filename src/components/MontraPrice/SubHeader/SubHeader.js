@@ -19,7 +19,7 @@ function SubHeader() {
                         <div className='col-9 sub-header-heading'>
                             <ul className="navbar-nav me-auto">
                                 <li className="sub-header-nav-item">
-                                    <a className="sub-sub-nav-link px-3" href="/">Payment</a>
+                                    <a className="sub-nav-link px-3" href="/">Payment</a>
                                 </li>
                                 <li className="nav-item">
                                     <a className="sub-nav-link px-3" href="/">Banking</a>

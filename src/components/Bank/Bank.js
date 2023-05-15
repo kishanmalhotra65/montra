@@ -13,7 +13,7 @@ function Bank() {
                     <div className='col-6 sideBox'>
                         <h6 className='title'>Banking</h6>
                         <h2 className='subTitle'><strong>Open a bank account instantly</strong> with our partner banks and operate through our Agent Network</h2>
-                        <div className='row btn__main '>
+                        <div className=' btn__main '>
                             <div className='col-4'>
                                 <p className='download'>Download</p>
                             </div>

@@ -1,5 +1,7 @@
 .Home-Page {
       background-image: url('../../../../assets/background.png');
+      background-size: contain;
+      height: 100vh;
 }
 .Home-Page-Heading h2 {
       width: 524px;
@@ -9,10 +11,6 @@
       font-size: 55px;
       line-height: 125%;
       /* or 69px */
-
-      display: flex;
-      align-items: center;
-
       color: #ffffff;
 }
 .Home-Page-Heading p {
@@ -31,9 +29,6 @@
 }
 .Home-Page-Heading button {
       box-sizing: border-box;
-
-      /* Auto layout */
-
       display: flex;
       flex-direction: row;
       justify-content: center;
@@ -47,4 +42,70 @@
       background: #ffffff;
       border: 0.686861px solid #20336b;
       border-radius: 9.13546px;
+}
+
+.Home-Page-Heading {
+      padding: 6rem 0 0 8.4rem;
+}
+.price-css {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      margin: 20px;
+}
+ul {
+      list-style: none;
+}
+.card__ul li:before {
+      content: '✓';
+      color: #5ebb0f;
+}
+
+ul.card__ul {
+      padding: 13px;
+}
+.card-title {
+      padding: 20px;
+}
+.card__ul li {
+      margin: 0;
+      padding: 0;
+      text-overflow: clip;
+      word-wrap: normal;
+      font-family: 'Test Söhne';
+      font-size: 15.7431px;
+      padding: 10px;
+}
+.card-title {
+      text-align: center;
+      font-family: 'Test Söhne';
+      font-size: 24px;
+      line-height: 120%;
+      font-weight: bolder;
+}
+.card-subTitle-box.subTitle {
+      font-family: 'DM Sans';
+      font-style: normal;
+      font-weight: 900;
+      font-size: 30.6944px;
+      line-height: 37px;
+      text-align: center;
+}
+.card-subTitle-box.price__text {
+      text-align: center;
+}
+
+.btn__main {
+      background-color: #ebf2f9;
+      overflow: hidden;
+}
+
+.download_btn {
+      padding: 5rem;
+}
+
+.download_btn .download {
+      color: #000000;
 }
