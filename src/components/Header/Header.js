@@ -1,11 +1,11 @@
-import React,{useState,useEffect} from 'react'
+import React, { useState, useEffect } from 'react'
 import "./Header.css";
 import logo from "../../assets/logo.png"
 function Header() {
     const [country, setCountry] = useState("India");
     const [flag, setFlag] = useState("https://flagcdn.com/in.svg");
 
-   
+
     useEffect(() => {
         const fetchData = async () => {
             const response = await fetch("https://ipapi.co/json/");
@@ -53,7 +53,7 @@ function Header() {
                             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="#!" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                      <img style={{"width":"20px"}}src={flag} alt="dfdf" srcset="" />  {country||"Nigeria"}
+                                        <img style={{ "width": "20px" }} src={flag} alt="flag" srcset="" />  {country || "Nigeria"}
                                     </a>
                                 </li>
 
