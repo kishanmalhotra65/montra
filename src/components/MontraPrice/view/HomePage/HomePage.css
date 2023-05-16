@@ -34,8 +34,7 @@
       justify-content: center;
       align-items: center;
       padding: 10.9898px 21.9796px;
-      gap: 2.75px;
-
+      gap: 11.75px;
       width: 200.06px;
       height: 38px;
 
@@ -102,10 +101,12 @@ ul.card__ul {
       overflow: hidden;
 }
 
-.download_btn {
+.download_btn button {
       padding: 5rem;
+      width: 200px;
 }
 
 .download_btn .download {
-      color: #000000;
+      color: #20336b;
+      padding: 15px 0 0 0;
 }

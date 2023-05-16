@@ -20,6 +20,21 @@ function HomePage() {
                     <div className='col-5 Home-Page-Heading '>
                         <h2>Simple, Transparent and Fair Pricing</h2>
                         <p>Best prices to suit small businesses, medium, and large organizations through variety of innovative payment options facilitating collection of both upfront payments & credit-based sales</p>
+                        <button className='download_btn'>
+                            <div className='col-6'>
+                                <p className='download'>Download</p>
+                            </div>
+                            <div className='col-4 '>
+                                <img className="btnLogo" src={btnLogo} alt="" srcset="" />
+                            </div>
+                            <div className='col-1'>
+                                <img className="googleLogo"
+                                    src={appleLogo} alt="" srcset="" />
+                            </div>
+                            <div className='col-1'>
+                                <img className="googleLogo" src={googlePlay} alt="" srcset="" />
+
+                            </div></button>
                     </div>
                     <div className='col-7 mt-4'>
                         <div className='row price-css'>
@@ -86,37 +101,8 @@ function HomePage() {
                             </div>
                         </div>
                     </div>
-                </div>
-                {/* <button className='download_btn'><div className='col-6'>
-                    <p className='download'>Download</p>
-                </div>
-                    <div className='col-4 '>
-                        <img className="btnLogo" src={btnLogo} alt="" srcset="" />
-                    </div>
-                    <div className='col-1'>
-                        <img className="googleLogo"
-                            src={appleLogo} alt="" srcset="" />
-                    </div>
-                    <div className='col-1'>
-                        <img className="googleLogo" src={googlePlay} alt="" srcset="" />
 
-                    </div></button> */}
-                {/* <div className='row btn__main '>
-                    <div className='col-6'>
-                        <p className='download'>Download</p>
-                    </div>
-                    <div className='col-4 '>
-                        <img className="btnLogo" src={btnLogo} alt="" srcset="" />
-                    </div>
-                    <div className='col-1'>
-                        <img className="googleLogo"
-                            src={appleLogo} alt="" srcset="" />
-                    </div>
-                    <div className='col-1'>
-                        <img className="googleLogo" src={googlePlay} alt="" srcset="" />
-
-                    </div>
-                </div> */}
+                </div>
             </div>
         </div>
     )
