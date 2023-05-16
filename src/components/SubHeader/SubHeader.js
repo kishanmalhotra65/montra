@@ -1,5 +1,6 @@
 import React from 'react'
 import './SubHeader.css';
+import { Link } from "react-router-dom";
 
 function SubHeader() {
     return (
@@ -19,22 +20,22 @@ function SubHeader() {
                     <div className='col-9 sub-header-heading'>
                         <ul className="navbar-nav me-auto">
                             <li className="sub-header-nav-item">
-                                <a className="sub-sub-nav-link px-3" href="/">Payment</a>
+                                <Link className="sub-sub-nav-link px-3" to="/payment">Payment</Link >
                             </li>
                             <li className="nav-item">
-                                <a className="sub-nav-link px-3" href="/">Banking</a>
+                                <Link  className="sub-nav-link px-3" to="/banking">Banking</Link >
                             </li>
                             <li className="nav-item">
-                                <a className="sub-nav-link px-3" href="/">Lending</a>
+                                <Link  className="sub-nav-link px-3" to="/lending">Lending</Link >
                             </li>
                             <li className="nav-item">
-                                <a className="sub-nav-link px-3" href="/">Insurance</a>
+                                <Link  className="sub-nav-link px-3" to="/insurance">Insurance</Link >
                             </li>
                             <li className="nav-item">
-                                <a className="sub-nav-link px-3" href="/">Investment</a>
+                                <Link  className="sub-nav-link px-3" to="/investment">Investment</Link >
                             </li>
                             <li className="nav-item">
-                                <a className="sub-nav-link px-3" href="/">Shopping</a>
+                                <Link  className="sub-nav-link px-3" to="/shopping">Shopping</Link >
                             </li>
                         </ul>
                     </div>

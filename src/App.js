@@ -1,14 +1,10 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Header from './components/Header/Header';
-import Footer from "./components/Footer/Footer.js";
-import HomePage from "./components/view/HomePage/HomeSection/HomePage";
+import Layout from './components/Layout/Layout';
 function App() {
   return (
     <div className="App">
-      <Header />
-        <HomePage/>
-      <Footer />
+     <Layout/>
     </div>
   );
 }

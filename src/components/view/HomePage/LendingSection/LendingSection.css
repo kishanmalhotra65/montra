@@ -1,4 +1,4 @@
-.LendingConatainer{
+.Lending{
     background-image: url("../../../../assets/cutBackgroundImage.png");
     /* background-size: contain;
     height: 100vh;
@@ -27,4 +27,91 @@
     line-height: 120%;
     letter-spacing: 0.02em;   
     color: #FFFFFF;
+}
+.Compare-Loan-Offers h3{
+    font-family: 'Test Söhne';
+    font-size: 22px;
+    line-height: 23px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+}
+.Compare-Loan-Offers p{
+    font-family: 'Test Söhne';
+    font-size: 16px;
+    line-height: 130%;
+    color: #C1C1C1;
+}
+.Instant-Loan-Disbursements h3{
+    font-family: 'Test Söhne';
+    font-size: 22px;
+    line-height: 23px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+}
+.Instant-Loan-Disbursements p{
+    font-family: 'Test Söhne';
+    font-size: 16px;
+    line-height: 130%;
+    color: #C1C1C1;
+}
+
+.Track-Loan-Applications h3{
+    font-family: 'Test Söhne';
+    font-size: 22px;
+    line-height: 23px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+}
+.Track-Loan-Applications p{
+    font-family: 'Test Söhne';
+    font-size: 16px;
+    line-height: 130%;
+    color: #C1C1C1;
+}
+/* 
+/////////// */
+.Make-Loan-Repayments h3{
+    font-family: 'Test Söhne';
+    font-size: 22px;
+    line-height: 23px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+}
+.Make-Loan-Repayments p{
+    font-family: 'Test Söhne';
+    font-size: 16px;
+    line-height: 130%;
+    color: #C1C1C1;
+}
+
+
+
+.View-Loan-Statements h3{
+    font-family: 'Test Söhne';
+    font-size: 22px;
+    line-height: 23px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+}
+.View-Loan-Statements p{
+    font-family: 'Test Söhne';
+    font-size: 16px;
+    line-height: 130%;
+    color: #C1C1C1;
+}
+
+
+
+.Get-Payment-Reminders h3{
+    font-family: 'Test Söhne';
+    font-size: 22px;
+    line-height: 23px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+}
+.Get-Payment-Reminders p{
+    font-family: 'Test Söhne';
+    font-size: 16px;
+    line-height: 130%;
+    color: #C1C1C1;
 }
