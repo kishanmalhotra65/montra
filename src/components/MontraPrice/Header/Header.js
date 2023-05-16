@@ -1,21 +1,24 @@
 import React, { useState, useEffect } from 'react'
 import "./Header.css"
 import logo from "../../../assets/logo.png";
+// import countriesJSON from "../../../assets/countries/countries.json";
 
 function Header() {
     const [country, setCountry] = useState("");
     // const [flag, setFlag] = useState("");
 
+    // const getCountryFlag = async (name) => {
+    //     let result = await countriesJSON.find((country) => country?.name.toLowerCase() === name?.toLowerCase());
+    //     return result.flag
+    // }
     useEffect(() => {
         const fetchData = async () => {
             const response = await fetch("https://ipapi.co/json/");
             const data = await response.json();
 
             console.log(data.country_name)
-            // let result = await countriesJSON.find((country) => country.name.toLowerCase() === data.country_name.toLowerCase())
             setCountry(data.country_name);
-            // setFlag(result.name);
-
+            // setFlag(getCountryFlag(data.country_name))
         };
         fetchData();
     }, []);
