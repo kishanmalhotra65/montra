@@ -6,7 +6,6 @@ import btnLogo from "../../assets/montraFinal.png";
 import appleLogo from "../../assets/appleLogo.png";
 import googlePlay from "../../assets/googlePlay.png"
 function paymentSection() {
-    
     return (
         <div className='paymentSection'>
             <div class="container">
@@ -95,8 +94,6 @@ function paymentSection() {
                 </div>
             </div>
         </div >
-
-
     )
 }
 

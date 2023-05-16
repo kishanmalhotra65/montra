@@ -1,0 +1,34 @@
+.paymentSection {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('../../../assets/background.png')
+}
+.paymenttext h6, .paymenttext h2, .paymenttext p 
+{
+    color: #fff;
+}
+.paymenttext p {
+    font-size: 14px;
+}
+.paymenttext h2 {
+    font-size: 55px;
+    padding-bottom: 20px;
+}
+.paymenttext h6
+{
+    font-size: 20px;
+}
+.PayRow {
+    margin-top: 60px;
+}
+.PayRow P {
+    margin-bottom: 30px;
+}
+.SecondSection p
+{
+    margin-top: 50px;
+}
+
+.container.SecondSection p {
+    width: 273px;
+}
