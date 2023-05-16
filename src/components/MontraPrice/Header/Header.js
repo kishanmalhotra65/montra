@@ -22,6 +22,17 @@ function Header() {
         };
         fetchData();
     }, []);
+
+    // useEffect(() => {
+    //     const fetchJSON = async () => {
+    //         const response = await fetch("../../../assets/countries/countries.json");
+    //         let value = response.find(item => item.name === country);
+    //         setFlag(value.flag);
+    //         // setFlag(getCountryFlag(data.country_name))
+    //         console.log(flag)
+    //     };
+    //     fetchJSON();
+    // }, [country]);
     return (
         <div className='Header'>
 

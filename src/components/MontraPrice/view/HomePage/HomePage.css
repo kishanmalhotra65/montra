@@ -110,3 +110,6 @@ ul.card__ul {
       color: #20336b;
       padding: 15px 0 0 0;
 }
+.h3.price.subTitle {
+      text-align: center;
+}
