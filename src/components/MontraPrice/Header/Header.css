@@ -1,6 +1,10 @@
 .logo {
       position: relative;
 }
+.flag {
+      width: 10px;
+      height: 10px;
+}
 
 .logo__spacing {
       position: absolute;

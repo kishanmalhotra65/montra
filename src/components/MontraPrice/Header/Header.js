@@ -5,7 +5,7 @@ import logo from "../../../assets/logo.png";
 
 function Header() {
     const [country, setCountry] = useState("");
-    // const [flag, setFlag] = useState("");
+    const [flag, setFlag] = useState("");
 
     // const getCountryFlag = async (name) => {
     //     let result = await countriesJSON.find((country) => country?.name.toLowerCase() === name?.toLowerCase());
@@ -18,7 +18,9 @@ function Header() {
 
             console.log(data.country_name)
             setCountry(data.country_name);
-            // setFlag(getCountryFlag(data.country_name))
+            const countryResponse = await fetch(`https://restcountries.com/v2/alpha/${data.country}`);
+            const countryData = await countryResponse.json();
+            setFlag(countryData.flag);
         };
         fetchData();
     }, []);
@@ -67,7 +69,7 @@ function Header() {
                             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="#!" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        {country || "Nigeria"}
+                                        <img style={{ "width": "20px" }} src={flag} alt="" />  {country || "Nigeria"}
                                     </a>
                                 </li>
 

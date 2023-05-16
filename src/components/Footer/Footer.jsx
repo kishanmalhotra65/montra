@@ -5,13 +5,22 @@ import logo from "../../assets/montra_logo.png"
 // import Clogo from "../../assets/c_montra.png"
 export default function Footer() {
     const [country, setCountry] = useState("");
+    const [flag, setFlag] = useState("");
 
+    // const getCountryFlag = async (name) => {
+    //     let result = await countriesJSON.find((country) => country?.name.toLowerCase() === name?.toLowerCase());
+    //     return result.flag
+    // }
     useEffect(() => {
         const fetchData = async () => {
             const response = await fetch("https://ipapi.co/json/");
             const data = await response.json();
-            setCountry(data.country_name);
 
+            console.log(data.country_name)
+            setCountry(data.country_name);
+            const countryResponse = await fetch(`https://restcountries.com/v2/alpha/${data.country}`);
+            const countryData = await countryResponse.json();
+            setFlag(countryData.flag);
         };
         fetchData();
     }, []);
@@ -219,7 +228,7 @@ export default function Footer() {
         <section className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
             <div className="out_footer">
                 <ul>
-                    <li>{country}</li>
+                    <li><img style={{ "width": "20px" }} src={flag} alt="" />  {country || "Nigeria"}</li>
                     <li>Privacy policy</li>
                     <li>Terms of use</li>
                     <li>Cookie policy</li>
