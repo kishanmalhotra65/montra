@@ -1,7 +1,6 @@
 import React from 'react';
-import SubHeader from '../../../SubHeader/SubHeader';
 import './HomePage.css';
-// import HomepageMoblieImg from '../../../assets/HomepageMoblieImg.png';
+import SubHeader from '../../../SubHeader/SubHeader';
 import dashboard from '../../../../assets/dashboard.png'
 import btnLogo from "../../../../assets/logo.png"
 import appleLogo from "../../../../assets/apple logo.png";
