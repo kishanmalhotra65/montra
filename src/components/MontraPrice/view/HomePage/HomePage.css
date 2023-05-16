@@ -1,0 +1,112 @@
+.Home-Page {
+      background-image: url('../../../../assets/background.png');
+      background-size: contain;
+      height: 100vh;
+}
+.Home-Page-Heading h2 {
+      width: 524px;
+      height: 183px;
+
+      font-family: 'Test Söhne';
+      font-size: 55px;
+      line-height: 125%;
+      /* or 69px */
+      color: #ffffff;
+}
+.Home-Page-Heading p {
+      width: 403px;
+      height: 35px;
+
+      font-family: 'Test Söhne';
+      font-size: 18px;
+      line-height: 28px;
+      /* or 156% */
+
+      display: flex;
+      align-items: center;
+
+      color: #f1f1f1;
+}
+.Home-Page-Heading button {
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 10.9898px 21.9796px;
+      gap: 11.75px;
+      width: 200.06px;
+      height: 38px;
+
+      background: #ffffff;
+      border: 0.686861px solid #20336b;
+      border-radius: 9.13546px;
+}
+
+.Home-Page-Heading {
+      padding: 6rem 0 0 8.4rem;
+}
+.price-css {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      margin: 20px;
+}
+ul {
+      list-style: none;
+}
+.card__ul li:before {
+      content: '✓';
+      color: #5ebb0f;
+}
+
+ul.card__ul {
+      padding: 13px;
+}
+.card-title {
+      padding: 20px;
+}
+.card__ul li {
+      margin: 0;
+      padding: 0;
+      text-overflow: clip;
+      word-wrap: normal;
+      font-family: 'Test Söhne';
+      font-size: 15.7431px;
+      padding: 10px;
+}
+.card-title {
+      text-align: center;
+      font-family: 'Test Söhne';
+      font-size: 24px;
+      line-height: 120%;
+      font-weight: bolder;
+}
+.card-subTitle-box.subTitle {
+      font-family: 'DM Sans';
+      font-style: normal;
+      font-weight: 900;
+      font-size: 30.6944px;
+      line-height: 37px;
+      text-align: center;
+}
+.card-subTitle-box.price__text {
+      text-align: center;
+}
+
+.btn__main {
+      background-color: #ebf2f9;
+      overflow: hidden;
+}
+
+.download_btn button {
+      padding: 5rem;
+      width: 200px;
+}
+
+.download_btn .download {
+      color: #20336b;
+      padding: 15px 0 0 0;
+}
