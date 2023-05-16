@@ -1,16 +1,12 @@
 import React, { useState, useEffect } from 'react'
 import "./Header.css"
 import logo from "../../../assets/logo.png";
-// import countriesJSON from "../../../assets/countries/countries.json";
 
 function Header() {
     const [country, setCountry] = useState("India");
     const [flag, setFlag] = useState("https://flagcdn.com/in.svg");
 
-    // const getCountryFlag = async (name) => {
-    //     let result = await countriesJSON.find((country) => country?.name.toLowerCase() === name?.toLowerCase());
-    //     return result.flag
-    // }
+
     useEffect(() => {
         const fetchData = async () => {
             const response = await fetch("https://ipapi.co/json/");
@@ -25,16 +21,6 @@ function Header() {
         fetchData();
     }, []);
 
-    // useEffect(() => {
-    //     const fetchJSON = async () => {
-    //         const response = await fetch("../../../assets/countries/countries.json");
-    //         let value = response.find(item => item.name === country);
-    //         setFlag(value.flag);
-    //         // setFlag(getCountryFlag(data.country_name))
-    //         console.log(flag)
-    //     };
-    //     fetchJSON();
-    // }, [country]);
     return (
         <div className='Header'>
 

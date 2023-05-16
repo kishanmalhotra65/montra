@@ -1,6 +1,5 @@
 import React from 'react'
 import './SubHeader.css';
-
 function SubHeader() {
     return (
 

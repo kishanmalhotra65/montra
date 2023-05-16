@@ -1,7 +1,9 @@
 .Home-Page {
       background-image: url('../../../../assets/background.png');
-      background-size: contain;
+      background-size: cover;
       height: 100vh;
+      background-clip: border-box;
+      background-position: bottom;
 }
 .Home-Page-Heading h2 {
       width: 524px;
@@ -37,7 +39,6 @@
       gap: 11.75px;
       width: 200.06px;
       height: 38px;
-
       background: #ffffff;
       border: 0.686861px solid #20336b;
       border-radius: 9.13546px;
@@ -75,7 +76,7 @@ ul.card__ul {
       word-wrap: normal;
       font-family: 'Test Söhne';
       font-size: 15.7431px;
-      padding: 10px;
+      padding: 6px 0 0 5px;
 }
 .card-title {
       text-align: center;
@@ -126,7 +127,4 @@ ul.card__ul {
 .download_btn .download {
       color: #20336b;
       padding: 15px 0 0 0;
-}
-.h3.price.subTitle {
-      text-align: center;
 }
