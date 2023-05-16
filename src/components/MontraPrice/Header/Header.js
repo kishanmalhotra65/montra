@@ -4,8 +4,8 @@ import logo from "../../../assets/logo.png";
 // import countriesJSON from "../../../assets/countries/countries.json";
 
 function Header() {
-    const [country, setCountry] = useState("");
-    const [flag, setFlag] = useState("");
+    const [country, setCountry] = useState("India");
+    const [flag, setFlag] = useState("https://flagcdn.com/in.svg");
 
     // const getCountryFlag = async (name) => {
     //     let result = await countriesJSON.find((country) => country?.name.toLowerCase() === name?.toLowerCase());
@@ -15,12 +15,12 @@ function Header() {
         const fetchData = async () => {
             const response = await fetch("https://ipapi.co/json/");
             const data = await response.json();
-
-            console.log(data.country_name)
-            setCountry(data.country_name);
-            const countryResponse = await fetch(`https://restcountries.com/v2/alpha/${data.country}`);
-            const countryData = await countryResponse.json();
-            setFlag(countryData.flag);
+            if (data) {
+                setCountry(data.country_name);
+                const countryResponse = await fetch(`https://restcountries.com/v2/alpha/${data.country}`);
+                const countryData = await countryResponse.json();
+                setFlag(countryData.flag);
+            }
         };
         fetchData();
     }, []);

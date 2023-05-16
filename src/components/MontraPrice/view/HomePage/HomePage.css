@@ -101,9 +101,26 @@ ul.card__ul {
       overflow: hidden;
 }
 
-.download_btn button {
-      padding: 5rem;
-      width: 200px;
+.download_btn {
+      padding: 5rem 1rem;
+      width: 400px;
+}
+.download {
+      font-family: 'DM Sans';
+      font-style: normal;
+      font-size: 12px;
+      font-weight: 700;
+}
+.btnLogo {
+      width: 54.19px;
+      height: 20px;
+      mix-blend-mode: normal;
+}
+.googleLogo {
+      width: 17px;
+      height: 15.12px;
+
+      background: #ffffff;
 }
 
 .download_btn .download {
