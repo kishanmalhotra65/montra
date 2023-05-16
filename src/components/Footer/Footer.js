@@ -1,8 +1,8 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Footer.css';
 import React, { useState, useEffect } from 'react'
-import logo from "../../assets/montra_logo.png"
-// import Clogo from "../../assets/c_montra.png"
+import logo from "../../assets/montra_logo.png";
+
 export default function Footer() {
 
     const [country, setCountry] = useState("India");
