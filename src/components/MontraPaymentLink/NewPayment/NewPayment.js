@@ -1,7 +1,7 @@
 import React from 'react';
 import "./NewPayment.css";
 import PayImg from "../../../assets/Group.png";
-import PayBackImg from "../../../assets/background.png";
+
 import PayRightig from "../../../assets/Group 5 1.png";
 
 function NewPayment() {
@@ -30,20 +30,29 @@ function NewPayment() {
          </div>
          <div className="container SecondSection">
             <div className="row">
-                <div className="col-6"> <h2>Why Montra Payment Gateway</h2> <div class="column" >
+                <div className="col-6 leftsection "> <h2>Why Montra Payment Gateway</h2> <div class="column" >
                 <h6>Accept All payment Modes</h6>
+                <p>With Domestic and International Credit and Debit cards,Escrow Pay, Payment Links,Pay with Montra and net banking with most of the banks, Montra provides the most extensive set of payment methods</p>
                 </div>
-                <div class="column" ><h2>Why Montra Payment Gateway</h2>
+                <div class="column" >
                 <h6>Accept All payment Modes</h6>
+                <p>With Domestic and International Credit and Debit cards,Escrow Pay, Payment Links,Pay with Montra and net banking with most of the banks, Montra provides the most extensive set of payment methods</p>
+
                 </div>
-                <div class="column" ><h2>Why Montra Payment Gateway</h2>
+                <div class="column" >
                 <h6>Accept All payment Modes</h6>
+                <p>With Domestic and International Credit and Debit cards,Escrow Pay, Payment Links,Pay with Montra and net banking with most of the banks, Montra provides the most extensive set of payment methods</p>
+
                 </div>
-                <div class="column" ><h2>Why Montra Payment Gateway</h2>
+                <div class="column" >
                 <h6>Accept All payment Modes</h6>
+                <p>With Domestic and International Credit and Debit cards,Escrow Pay, Payment Links,Pay with Montra and net banking with most of the banks, Montra provides the most extensive set of payment methods</p>
+
                 </div>
-                <div class="column" ><h2>Why Montra Payment Gateway</h2>
+                <div class="column" >
                 <h6>Accept All payment Modes</h6>
+                <p>With Domestic and International Credit and Debit cards,Escrow Pay, Payment Links,Pay with Montra and net banking with most of the banks, Montra provides the most extensive set of payment methods</p>
+
                 </div>
                 </div>
                 <div className="col-6 rightimage"><img src={PayRightig} alt="" /></div>

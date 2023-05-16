@@ -1,4 +1,5 @@
 .paymentSection {
+    height: 800px;
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url('../../../assets/background.png')
@@ -31,4 +32,22 @@
 
 .container.SecondSection p {
     width: 273px;
+}
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  
+  .paymentSection .rightimage img {
+    position: relative;
+    height: 400px;
+    /* right: 0px !important; */
+    /* float: right !important; */
+    /* bottom: 10px; */
+    left: 22rem;
+}
+.SecondSection .leftsection {
+    margin-top: 300px;
 }
