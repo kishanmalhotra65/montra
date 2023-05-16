@@ -1,6 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Footer.css';
-import React,{useState,useEffect} from 'react'
+import React, { useState, useEffect } from 'react'
 import logo from "../../assets/montra_logo.png"
 // import Clogo from "../../assets/c_montra.png"
 export default function Footer() {
@@ -8,7 +8,7 @@ export default function Footer() {
     const [country, setCountry] = useState("India");
     const [flag, setFlag] = useState("https://flagcdn.com/in.svg");
 
-   
+
     useEffect(() => {
         const fetchData = async () => {
             const response = await fetch("https://ipapi.co/json/");
@@ -30,7 +30,7 @@ export default function Footer() {
                     {/* 1st column */}
                     <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
                         <h6 className="text-uppercase fw-bold mb-4">
-                            <img src={logo} alt='montra-logo'/>
+                            <img src={logo} alt='montra-logo' />
                         </h6>
                         <div className="location"><i class="fa fa-map-marker"></i>Montra, Inc. United States</div>
                         <div className='logo'>
@@ -226,7 +226,7 @@ export default function Footer() {
         <section className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
             <div className="out_footer">
                 <ul>
-                    <li> <img style={{"width":"20px"}}src={flag} alt="dfdf" srcset="" />  {country||"Nigeria"}</li>
+                    <li> <img style={{ "width": "20px", "marginLeft": '5px' }} src={flag} alt="flag" srcset="" />  {country || "Nigeria"}</li>
                     <li>Privacy policy</li>
                     <li>Terms of use</li>
                     <li>Cookie policy</li>
