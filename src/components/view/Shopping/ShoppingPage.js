@@ -9,7 +9,7 @@ export default function ShoppingPage() {
           <div className='col-6 md-6 sm-6 shoppingPart'>
             <img className="" src={ShoppingImage} alt='shoppingImage' />
           </div>
-          <div className='col-6 md-6 sm-6 sideText'>
+          <div className='col-6 md-6 sm-6 mt-5 sideText'>
             <h5 className='main__title'>Shopping</h5>
             <h3 className='title'>Connect to sellers on
               Montra app for exciting deals</h3>

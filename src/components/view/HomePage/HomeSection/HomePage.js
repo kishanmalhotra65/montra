@@ -11,6 +11,9 @@ import InsuranceSection from '../InsuranceSection/InsuranceSection';
 import InvestmentSection from '../InvestmentSection/InvestmentSection';
 import LendingSection from '../LendingSection/LendingSection';
 import ShoppingPage from '../../Shopping/ShoppingPage';
+import Vector from '../../../../assets/Vector.png'
+import VectorBlue from '../../../../assets/VectorBlue.png'
+// import Homepage from '../../../../assets/HomepageMoblieImg.png'
 
 function HomePage() {
     return (
@@ -37,10 +40,22 @@ function HomePage() {
                             </div>
                         </div>
                     </div>
-                    <div className='col-5'>
+                    <div className='col-5 homepage'>
                         <img src={dashboard} alt='dashboard' />
                     </div>
                     <div className='col-1'></div>
+                </div>
+            </div>
+            <div className='container-fluid'>
+                <div className="row">
+                    <div className="col-12">
+                        <img className="VectorImg" src={Vector} alt="" srcset="" />
+                    </div>
+                </div>
+                <div className="row">
+                    <div className="col-12">
+                        <img className="VectorBlueImg" src={VectorBlue} alt="" srcset="" />
+                    </div>
                 </div>
             </div>
             <PaymentSection />
